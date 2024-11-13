@@ -71,7 +71,7 @@ export const skills = [
     icon: IconKeys.nodejs,
   },
   {
-    title: "Mongodb",  
+    title: "MongoDB",  
     icon: IconKeys.mongodb,
   },
   {
