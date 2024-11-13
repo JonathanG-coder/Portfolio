@@ -2,12 +2,22 @@
 
 Bienvenue dans mon **portfolio** développé avec **Astro** et **TypeScript**. Ce projet vise à offrir une interface élégante et rapide pour présenter mes compétences, projets, et réalisations.
 
+---
+
+### 🔗 Accédez à mon Portfolio
+
+Vous pouvez consulter mon portfolio en ligne en cliquant sur le lien suivant :  
+[Mon Portfolio - Jonathan Gager](https://gager-jonathan-portfolio.vercel.app/)
+
+---
+
 ## ✨ Création du projet
 
 Le projet a été initié à l'aide de l'**Astro Starter Kit: Minimal**. Pour démarrer un projet similaire, utilisez la commande suivante :
 
 ```bash
 npm create astro@latest -- --template minimal
+
 
 ## 🧞 Commands
 
@@ -29,9 +39,4 @@ Ce projet est conçu pour être déployé facilement sur des services d'héberge
 ```bash
 npm run build && npm run preview
 
-## 🔗 Lien de déploiement
-
-Le site est actuellement hébergé sur **Vercel** et accessible via le lien suivant :
-
-➡️ [https://gager-jonathan-portfolio.vercel.app/](https://gager-jonathan-portfolio.vercel.app/)
 
