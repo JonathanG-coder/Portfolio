@@ -29,3 +29,9 @@ Ce projet est conçu pour être déployé facilement sur des services d'héberge
 ```bash
 npm run build && npm run preview
 
+## 🔗 Lien de déploiement
+
+Le site est actuellement hébergé sur **Vercel** et accessible via le lien suivant :
+
+➡️ [https://gager-jonathan-portfolio.vercel.app/](https://gager-jonathan-portfolio.vercel.app/)
+
