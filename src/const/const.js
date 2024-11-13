@@ -30,7 +30,7 @@ export const IconKeys = {
   wordpress: "wordpress",
   unity: "unity",
   c: "c",
-
+  mongodb: "mongodb",
 };
 
 export const skills = [
