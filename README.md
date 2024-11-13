@@ -1,37 +1,27 @@
-# Astro Starter Kit: Minimal
+# 🌐 Mon Portfolio
 
-```
+Bienvenue dans mon **portfolio** développé avec **Astro** et **TypeScript**. Ce projet vise à offrir une interface élégante et rapide pour présenter mes compétences, projets, et réalisations.
+
+---
+
+### 🔗 Accédez à mon Portfolio
+
+Vous pouvez consulter mon portfolio en ligne en cliquant sur le lien suivant :  
+[Mon Portfolio - Jonathan Gager](https://gager-jonathan-portfolio.vercel.app/)
+
+---
+
+## ✨ Création du projet
+
+Le projet a été initié à l'aide de l'**Astro Starter Kit: Minimal**. Pour démarrer un projet similaire, utilisez la commande suivante :
+
+```bash
 npm create astro@latest -- --template minimal
-```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+Toutes les commandes doivent être exécutées à partir du répertoire racine du projet :
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
@@ -42,6 +32,11 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 🚀 Déploiement
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Ce projet est conçu pour être déployé facilement sur des services d'hébergement modernes tels que **Vercel**, **Netlify** ou **GitHub Pages**.
+
+```bash
+npm run build && npm run preview
+
+
