@@ -96,10 +96,10 @@ export const projects = [
     description: `SnapFace est une application web de partage de photos.`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.angular,
       },
       {
-        icon: IconKeys.angular,
+        icon: IconKeys.typeScript,
       },
     ],
   },
@@ -110,10 +110,10 @@ export const projects = [
     description: `Présentation d'équipes de e-sports avec leurs joueurs, leur staff et le jeu auquel ils participent.`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.angular,
       },
       {
-        icon: IconKeys.angular,
+        icon: IconKeys.typeScript,
       },
     ],
   },
@@ -124,10 +124,10 @@ export const projects = [
     description: `Courses de chevaux sous Angular TypeScript.`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.angular,
       },
       {
-        icon: IconKeys.angular,
+        icon: IconKeys.typeScript,
       },
     ],
   },
@@ -138,10 +138,10 @@ export const projects = [
     description: `Une boutique qui présente des articles avec possibilité d'ajouter et de supprimer du panier.`, 
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.angular,
       },
       {
-        icon: IconKeys.angular,
+        icon: IconKeys.typeScript,
       },
     ],
   },
