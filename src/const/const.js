@@ -12,10 +12,6 @@ export const studies = [
     date: "2023",
   },
   {
-    title: "Bachelier Concepteur Développeur de Solutions Digitales",  
-    date: "2022 – 2023",
-  },
-  {
     title: "Bachelier en Soins Infirmiers",
     date: "2015 – 2022",
   },
@@ -25,7 +21,6 @@ export const IconKeys = {
   html: "html",
   css: "css",
   javaScript: "javaScript",
-  react: "react",
   astro: "astro",
   typeScript: "typeScript",
   git: "git",
@@ -35,7 +30,7 @@ export const IconKeys = {
   wordpress: "wordpress",
   unity: "unity",
   c: "c",
-
+  mongodb: "mongodb",
 };
 
 export const skills = [
@@ -72,12 +67,12 @@ export const skills = [
     icon: IconKeys.github,
   },
   {
-    title: "React JS", 
-    icon: IconKeys.react,
-  },
-  {
     title: "Node JS",  
     icon: IconKeys.nodejs,
+  },
+  {
+    title: "MongoDB",  
+    icon: IconKeys.mongodb,
   },
   {
     title: "WordPress",  
@@ -94,6 +89,20 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    img: "../../../img/Three Rock Mountain.png",
+    title: "FaceSnaps",
+    link: "https://github.com/JonathanG-coder/FaceSnaps",
+    description: `SnapFace est une application web de partage de photos.`,
+    technologies: [
+      {
+        icon: IconKeys.typeScript,
+      },
+      {
+        icon: IconKeys.angular,
+      },
+    ],
+  },
   {
     img: "../../../img/E-Sport2.png",
     title: "E-Sport",
@@ -126,13 +135,30 @@ export const projects = [
     img: "../../../img/Divers&Shop.png",
     title: "Divers & Shop",
     link: "https://github.com/JonathanG-coder/Divers-E-shop",
-    description: `Une boutique qui présente des articles avec possibilité d'ajouter et de supprimer du panier.`, // Ajout de "de" pour la grammaire
+    description: `Une boutique qui présente des articles avec possibilité d'ajouter et de supprimer du panier.`, 
     technologies: [
       {
         icon: IconKeys.typeScript,
       },
       {
         icon: IconKeys.angular,
+      },
+    ],
+  },
+  {
+    img: "../../../img/Pieces-auto.png",
+    title: "Pieces-auto",
+    link: "https://github.com/JonathanG-coder/Pieces-auto",
+    description: `Realisation d'un projet pour l'achat de piéces auto.`, 
+    technologies: [
+      {
+        icon: IconKeys.html,
+      },
+      {
+        icon: IconKeys.css,
+      },
+      {
+        icon: IconKeys.javaScript,
       },
     ],
   },
