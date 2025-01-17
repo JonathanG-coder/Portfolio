@@ -90,6 +90,20 @@ export const skills = [
 
 export const projects = [
   {
+    img: "../../../img/Awesome Components Social Media.png",
+    title: "Awesome Components",
+    link: "https://github.com/JonathanG-coder/AwesomeComponents",
+    description: `Realisation d'un mini réseau social avec partage de photos, incluant un formulaire d'inscriptin réactif et un outil d'embauche pour les RH.`,
+    technologies: [
+      {
+        icon: IconKeys.angular,
+      },
+      {
+        icon: IconKeys.typeScript,
+      },
+    ],
+  },
+  {
     img: "../../../img/Three Rock Mountain.png",
     title: "FaceSnaps",
     link: "https://github.com/JonathanG-coder/FaceSnaps",
