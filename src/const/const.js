@@ -90,6 +90,20 @@ export const skills = [
 
 export const projects = [
   {
+    img: "../../../img/Panier.png",
+    title: "La Maison Jungle",
+    link: "https://github.com/JonathanG-coder/La-maison-jungle/tree/dev",
+    description: "Ce projet a été développé dans le but de mettre en pratique mes compétences en React, en gestion de l'état, et en gestion du stockage local pour créer une expérience utilisateur simple et agréable dans le cadre d'un e-commerce dédié aux plantes.",
+    technologies: [
+      {
+        icon: IconKeys.react,
+      },
+      {
+        icon: IconKeys.javaScript,
+      },
+    ],
+  },
+  {
     img: "../../../img/Awesome Components Social Media.png",
     title: "Awesome Components",
     link: "https://github.com/JonathanG-coder/AwesomeComponents",
