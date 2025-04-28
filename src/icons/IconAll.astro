@@ -12,7 +12,7 @@ import IconWordpress from "./IconWordpress.astro";
 import IconUnity from "./IconUnity.astro";
 import IconC from "./IconC.astro";
 import IconMongodb from "./IconMongodb.astro";
-
+import IconReact from "./IconReact.astro";
 // Définir un type pour les clés d'icônes
 type IconKey = 
   | 'html'
@@ -24,6 +24,7 @@ type IconKey =
   | 'github'
   | 'nodejs'
   | 'angular'
+  | 'react'
   | 'wordpress'
   | 'unity'
   | 'c'
@@ -40,6 +41,7 @@ export const ICONS: Record<IconKey, (_props: Record<string, any>) => any> = {
   github: IconGitHub,
   nodejs: IconNodeJs,
   angular: IconAngular,
+  react: IconReact,
   wordpress: IconWordpress,
   unity: IconUnity,
   c: IconC,

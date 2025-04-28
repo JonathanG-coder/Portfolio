@@ -31,7 +31,7 @@ export const IconKeys = {
   unity: "unity",
   c: "c",
   mongodb: "mongodb",
-  react:"react",
+  react: "react",
 };
 
 export const skills = [
@@ -50,6 +50,10 @@ export const skills = [
   {
     title: "TypeScript",
     icon: IconKeys.typeScript,
+  },
+  {
+    title: "React",
+    icon: IconKeys.react,
   },
   {
     title: "Angular",
@@ -87,10 +91,6 @@ export const skills = [
     title: "C",
     icon: IconKeys.c,
   },
-  {
-    title: "React",
-    icon: IconKeys.react,
-  },
 ];
 
 export const projects = [
@@ -101,7 +101,7 @@ export const projects = [
     description: "Ce projet est un site web dédié à la vente de prestations de beauté, proposant des services tels que l'onglerie, la beauté du regard et divers types de massages, avec une interface moderne et conviviale pour réserver facilement en ligne.",
     technologies: [
       {
-        icon: IconKeys.angular,
+        icon: IconKeys.react,
       },
       {
         icon: IconKeys.javaScript,
