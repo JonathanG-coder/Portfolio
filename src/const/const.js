@@ -101,7 +101,7 @@ export const projects = [
     description: "Ce projet est un site web dédié à la vente de prestations de beauté, proposant des services tels que l'onglerie, la beauté du regard et divers types de massages, avec une interface moderne et conviviale pour réserver facilement en ligne.",
     technologies: [
       {
-        icon: IconKeys.react,
+        icon: IconKeys.angular,
       },
       {
         icon: IconKeys.javaScript,
