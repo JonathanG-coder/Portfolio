@@ -31,6 +31,7 @@ export const IconKeys = {
   unity: "unity",
   c: "c",
   mongodb: "mongodb",
+  react:"react",
 };
 
 export const skills = [
@@ -85,6 +86,10 @@ export const skills = [
   {
     title: "C",
     icon: IconKeys.c,
+  },
+  {
+    title: "react",
+    icon: IconKeys.react,
   },
 ];
 
