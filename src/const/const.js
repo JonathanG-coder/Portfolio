@@ -88,12 +88,26 @@ export const skills = [
     icon: IconKeys.c,
   },
   {
-    title: "react",
+    title: "React",
     icon: IconKeys.react,
   },
 ];
 
 export const projects = [
+  {
+    img: "../../../img/LABEAUTECHEZMOI.png",
+    title: "LA BEAUTE CHEZ MOI",
+    link: "https://github.com/JonathanG-coder/la-beaute-chez-moi",
+    description: "Ce projet est un site web dédié à la vente de prestations de beauté, proposant des services tels que l'onglerie, la beauté du regard et divers types de massages, avec une interface moderne et conviviale pour réserver facilement en ligne.",
+    technologies: [
+      {
+        icon: IconKeys.react,
+      },
+      {
+        icon: IconKeys.javaScript,
+      },
+    ],
+  },
   {
     img: "../../../img/Panier.png",
     title: "La Maison Jungle",
