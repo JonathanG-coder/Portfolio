@@ -1,6 +1,18 @@
 export const studies = [
   {
-    title: "Bootcamp concepteur développeur d'application",
+    title: "Concepteur Développeur d’Applications – Groupe AFEC Bayonne",
+    date: "09/2025 – 12/2026",
+  },
+  {
+    title: "Développeur Web et Web Mobile – Groupe AFEC Bayonne",
+    date: "03/2025 – 08/2025",
+  },
+  {
+    title: "Développement web (Angular, React) – OpenClassrooms",
+    date: "2024 – 2025",
+  },
+  {
+    title: "Bootcamp Concepteur Développeur d'Applications",
     date: "03/2024 – 07/2024",
   },
   {
@@ -8,7 +20,7 @@ export const studies = [
     date: "2024",
   },
   {
-    title: "Entrepreneur numérique CMS WordPress", 
+    title: "Entrepreneur numérique CMS WordPress",
     date: "2023",
   },
   {
@@ -16,6 +28,7 @@ export const studies = [
     date: "2015 – 2022",
   },
 ];
+
 
 export const IconKeys = {
   html: "html",
