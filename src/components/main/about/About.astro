@@ -4,40 +4,39 @@
     <div class="container-text-about">
       <h2 class="title-about" id="sur-moi">Mon parcours</h2>
       <section>
-  <p>
-    Ancien infirmier, aujourd’hui en reconversion vers les métiers du développement, j’ai choisi de mettre mes compétences humaines et organisationnelles au service du numérique.
-  </p>
-  <p>
-    Pendant plusieurs années, j’ai travaillé dans le secteur médical, d’abord comme infirmier, puis comme chef infirmier en psychiatrie. Ces expériences m’ont permis d’évoluer dans des environnements exigeants, où la rigueur, la réactivité et la collaboration sont essentielles. J’y ai développé des qualités solides qui trouvent aujourd’hui toute leur place dans ma nouvelle orientation professionnelle.
-  </p>
+        <p>
+          Ancien infirmier, aujourd’hui en reconversion vers les métiers du développement, j’ai choisi de mettre mes compétences humaines et organisationnelles au service du numérique.
+        </p>
+        <p>
+          Pendant plusieurs années, j’ai travaillé dans le secteur médical, d’abord comme infirmier, puis comme chef infirmier en psychiatrie. Ces expériences m’ont permis d’évoluer dans des environnements exigeants, où la rigueur, la réactivité et la collaboration sont essentielles. J’y ai développé des qualités solides qui trouvent aujourd’hui toute leur place dans ma nouvelle orientation professionnelle.
+        </p>
 
-  <h3>En tant qu’infirmier, j’ai appris à :</h3>
-  <ul>
-    <li>Écouter activement et analyser des situations complexes</li>
-    <li>Gérer le stress et prendre des décisions rapidement</li>
-    <li>Travailler en équipe avec empathie et efficacité</li>
-  </ul>
+        <h3>En tant qu’infirmier, j’ai appris à :</h3>
+        <ul>
+          <li>Écouter activement et analyser des situations complexes</li>
+          <li>Gérer le stress et prendre des décisions rapidement</li>
+          <li>Travailler en équipe avec empathie et efficacité</li>
+        </ul>
 
-  <h3>En tant que chef infirmier, j’ai :</h3>
-  <ul>
-    <li>Coordonné des équipes pluridisciplinaires</li>
-    <li>Organisé des projets de soins et géré des plannings complexes</li>
-    <li>Assuré une communication fluide entre les différents acteurs du système de santé</li>
-  </ul>
+        <h3>En tant que chef infirmier, j’ai :</h3>
+        <ul>
+          <li>Coordonné des équipes pluridisciplinaires</li>
+          <li>Organisé des projets de soins et géré des plannings complexes</li>
+          <li>Assuré une communication fluide entre les différents acteurs du système de santé</li>
+        </ul>
 
-  <h3>Compétences transférables vers le métier de développeur :</h3>
-  <ul>
-    <li>Gestion de projet et rigueur</li>
-    <li>Résolution de problèmes complexes</li>
-    <li>Travail collaboratif (équipes pluridisciplinaires / méthodes agiles)</li>
-    <li>Sens du détail, de la logique et de la structure</li>
-  </ul>
+        <h3>Compétences transférables vers le métier de développeur :</h3>
+        <ul>
+          <li>Gestion de projet et rigueur</li>
+          <li>Résolution de problèmes complexes</li>
+          <li>Travail collaboratif (équipes pluridisciplinaires / méthodes agiles)</li>
+          <li>Sens du détail, de la logique et de la structure</li>
+        </ul>
 
-  <p>
-    Aujourd’hui, je suis pleinement engagé dans ma reconversion et je recherche activement une alternance pour m’investir concrètement dans le secteur du développement et monter en compétences sur le terrain.
-  </p>
-</section>
-
+        <p>
+          Aujourd’hui, je suis pleinement engagé dans ma reconversion et je recherche activement une alternance pour m’investir concrètement dans le secteur du développement et monter en compétences sur le terrain.
+        </p>
+      </section>
     </div>
     <div class="container-svg-about">
       <div class="container-svg">
@@ -47,15 +46,14 @@
           speed="1"
           style="width: 380px; height: 380px; position:relative;"
           loop
-          autoplay></lottie-player>
+          autoplay>
+        </lottie-player>
       </div>
     </div>
   </div>
 </section>
 
-<script
-  src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
-></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 <style>
   .linear-grandient-1 {
@@ -64,9 +62,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    /* background: radial-gradient(at left center, rgba(1, 190, 150 , 0.5), transparent , transparent); */
     background: linear-gradient(to top, #000, rgba(1, 190, 150, 0.5));
-    background:;
     z-index: 0;
   }
 
@@ -74,6 +70,7 @@
     position: relative;
     background-color: #111111;
   }
+
   .container-about {
     position: relative;
     width: 90%;
@@ -89,6 +86,7 @@
     flex-direction: column;
     align-items: center;
   }
+
   .title-about {
     position: relative;
     display: block;
@@ -99,17 +97,37 @@
     font-weight: 800;
     scroll-margin-top: 80px;
   }
+
   .container-text-about p {
     font-size: 17px;
     color: #f6f6f9;
     text-align: left;
     letter-spacing: 1px;
+    margin-bottom: 1em; /* espace sous les paragraphes */
+  }
+
+  .container-text-about h3 {
+    color: #ffffff;
+    margin-top: 1.5em;   /* espace au-dessus des titres */
+    margin-bottom: 0.5em; /* espace sous les titres */
+  }
+
+  .container-text-about ul {
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 1.5em; /* espace sous les listes */
+    padding-left: 1.2em; /* indentation classique pour listes */
+  }
+
+  .container-text-about ul li {
+    margin-bottom: 0.4em; /* espacement entre les items */
   }
 
   .container-svg-about {
     position: relative;
     width: 50%;
   }
+
   .container-svg {
     position: relative;
     display: flex;
@@ -117,17 +135,9 @@
     align-items: center;
     padding-left: 100px;
   }
-  .container-text-about h3,
-.container-text-about ul,
-.container-text-about ul li {
-  color: #ffffff;
-}
 
-
-  /*  responsive  */
-
+  /* Responsive */
   @media (max-width: 900px) {
-    /*Resposivo de la seccion sobre mi*/
     .container-about {
       flex-direction: column;
     }
