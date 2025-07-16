@@ -109,7 +109,7 @@ export const skills = [
 export const projects = [
   {
     img: "../../../img/handiblog.png",
-    title: "LA BEAUTE CHEZ MOI",
+    title: "Handiblog",
     link: "https://github.com/JonathanG-coder/handiblog",
     description: "Handiblog est une plateforme web inclusive dédiée à la sensibilisation et à la promotion des outils numériques adaptés aux personnes en situation de handicap.",
    technologies: [
