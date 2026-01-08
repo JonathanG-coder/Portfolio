@@ -13,6 +13,7 @@ import IconUnity from "./IconUnity.astro";
 import IconC from "./IconC.astro";
 import IconMongodb from "./IconMongodb.astro";
 import IconReact from "./IconReact.astro";
+import IconMysql from "./IconMysql.astro";
 // Définir un type pour les clés d'icônes
 type IconKey = 
   | 'html'
@@ -28,6 +29,7 @@ type IconKey =
   | 'wordpress'
   | 'unity'
   | 'c'
+  | 'mysql'
   | 'mongodb';
 
 // Vérifiez que toutes les clés sont correctement définies et qu'il n'y a pas de fautes de frappe.
@@ -46,6 +48,7 @@ export const ICONS: Record<IconKey, (_props: Record<string, any>) => any> = {
   unity: IconUnity,
   c: IconC,
   mongodb: IconMongodb,
+  mysql: IconMysql,
 };
 
 
